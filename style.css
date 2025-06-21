@@ -173,3 +173,70 @@ a {
   font-weight: 500;
 }
 /* Practice Area End */
+
+/* About Firm Preview */
+
+.about-firm {
+  padding: 2rem 3rem;
+  background: var(--primary-color--);
+}
+
+.about-firm-container {
+  padding: 2rem;
+}
+
+.about-firm-grid {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+}
+
+.about-firm-items img {
+  width: 100%;
+  height: 428px;
+  border-radius: var(--border-radius--);
+}
+
+.about-firm-items-right {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.about-sub-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sub-grid-items {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  background: var(--secondary-color--);
+  border-radius: var(--border-radius--);
+}
+
+.sub-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.about-firm-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.about-firm-cta a {
+  padding: 1rem 1.5rem;
+  background: var(--accent-color--);
+  color: var(--primary-color--);
+  border-radius: var(--small-border-radius--);
+  font-weight: 500;
+}
+/* About Firm Preview End */
