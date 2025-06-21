@@ -321,3 +321,48 @@ a {
   grid-column: 2/3;
 }
 /* Featured Attorney End */
+
+/* Client Testimonial */
+
+.client-testimonial {
+  padding: 2rem 3rem;
+  background: var(--primary-color--);
+}
+
+.client-testimonial-container {
+  padding: 2rem;
+}
+
+.client-testimonial-topber {
+  text-align: center;
+  line-height: 2.5rem;
+  padding: 2rem;
+}
+
+.testimonial-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+}
+
+.testimonial-items {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius--);
+}
+
+.profile {
+  display: flex;
+  gap: 1rem;
+}
+
+.profile img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+/* Client Testimonial End */
