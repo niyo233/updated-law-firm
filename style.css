@@ -120,3 +120,56 @@ a {
   margin-left: 1rem;
 }
 /* Hero Sectio End */
+
+/* Practice Area */
+
+.practice-area {
+  padding: 2rem 3rem;
+  background: var(--secondary-color--);
+}
+
+.practice-area-container {
+  padding: 2rem;
+}
+
+.practice-area-topber {
+  text-align: center;
+  line-height: 2.5rem;
+  padding: 2rem;
+}
+
+.practice-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+}
+
+.practice-items {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  background: var(--primary-color--);
+  padding: 1.5rem;
+  border-radius: var(--border-radius--);
+}
+
+.practice-items div {
+  padding: 0.5rem;
+}
+
+.practice-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.practice-cta a {
+  padding: 1rem 1.5rem;
+  background: var(--accent-color--);
+  color: var(--primary-color--);
+  border-radius: var(--small-border-radius--);
+  font-weight: 500;
+}
+/* Practice Area End */
